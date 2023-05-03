@@ -1,6 +1,6 @@
 import { FEMALES_FIRST_NAME, MALES_FIRST_NAME } from '../../constants/first-names';
 import type { GenderUnion } from '../../types/gender';
-import { pick } from '../or';
+import { pick } from '../pick';
 
 const ret = {
   male: () => pick(...MALES_FIRST_NAME),
